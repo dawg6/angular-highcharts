@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build_lib": "ng build angular-highcharts --configuration production && cp README.md dist/angular-highcharts",
+    "build_lib_win": "ng build angular-highcharts --configuration production && copy README.md dist/angular-highcharts",
     "test": "ng test",
     "lint": "ng lint"
   },
